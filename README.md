@@ -34,6 +34,9 @@ Ilustración de una partida finalizada: <br>
 ### Partida
 ![Partida](images/partida.png)
 
+### Conteo de puntos
+![Conteo de Puntos](images/conteo_puntos.png)
+
 ## Créditos
 - Juego inventado por Angel Simón.
 - Inspirado en el juego de mesa Jardinero comercializado por Maldón.
