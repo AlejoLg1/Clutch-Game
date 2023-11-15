@@ -1,28 +1,42 @@
 # Clutch - Juego de Mesa en Consola
 
-## Descripción
-Clutch es un emocionante juego de mesa para dos jugadores que utiliza cartas seleccionadas del mazo de la baraja francesa y un dado de 6 caras. El objetivo es completar la secuencia de cada una de las fases del crecimiento de una gallina.
-
-## Reglas del Juego
-Clutch se juega con cartas representando distintas etapas del crecimiento de una gallina: Huevo, Grieta, Picoteo, Pollito y Gallina. Cada jugador tiene un corral de cinco cartas y el objetivo es ordenarlas del 10 al A. Los jugadores lanzan un dado para realizar acciones como intercambiar cartas, robar del mazo o bloquear una carta.
-
 ## Estructura del Proyecto
-* **src:** Contiene los archivos fuente del proyecto en C++.
-* **bin:** Almacena los ejecutables generados.
-* **obj:** Contiene archivos objeto generados durante la compilación.
-* **.gitignore:** Archivo que especifica qué archivos y carpetas se deben ignorar en el repositorio.
+- **src:** Archivos fuente del proyecto en C++.
+- **bin:** Ejecutables generados.
+- **obj:** Archivos objeto generados durante la compilación.
+- **.gitignore:** Especifica qué archivos y carpetas ignorar en el repositorio.
 
-## Instrucciones de Ejecución
-1. Clona el repositorio: `git clone https://github.com/AlejoLg1/Clutch-Game.git`
-2. Compila el proyecto.
-3. Ejecuta el juego.
+## Juego
 
-## Cómo Jugar
-Los jugadores lanzan un dado y realizan acciones según el resultado. Pueden intercambiar cartas, robar del mazo, bloquear cartas o realizar otras acciones estratégicas para ordenar sus corrales.
+### Descripción
+Clutch es un emocionante juego de mesa por turnos para dos jugadores que utiliza cartas seleccionadas del mazo de la baraja francesa y un dado de 6 caras. Las cartas representan las distintas etapas del crecimiento de una gallina.
 
-## Menú Principal
+![Etapas de Crecimiento](images/etapas_crecimiento.png)
+
+### Reglas del Juego
+Cada jugador maneja un corral compuesto por cinco cartas. El objetivo es organizarlas en orden ascendente, del 10 a la A. Durante su turno, cada jugador lanza un dado para ejecutar diversas acciones estratégicas.
+
+![Acciones](images/acciones.png)
+
+### Partida Finalizada 
+Cuando un jugador consigue organizar las cartas de su corral en orden ascendente, la partida llega a su fin. A partir de este momento, se procede al conteo de puntos de victoria para determinar el puntaje total.
+
+Ilustración de una partida finalizada: <br>
+![Partida Finalizada](images/partida_finalizada.png)
+
+### Puntos de Victoria
+![Puntos de Victoria](images/puntos_victoria.png)
+
+## Capturas de pantallas in-game
+### Menú Principal
 ![Menu Principal](images/menu_principal.png)
 
+### Partida
+![Partida](images/partida.png)
 
 ## Créditos
-Juego inventado por Angel Simón. Inspirado en el juego de mesa Jardinero comercializado por Maldón.
+- Juego inventado por Angel Simón.
+- Inspirado en el juego de mesa Jardinero comercializado por Maldón.
+
+## Notas
+No es necesario reiniciar el juego para comenzar una nueva partida.
